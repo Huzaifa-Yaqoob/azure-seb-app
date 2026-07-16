@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'azursebapp12'
           package: .
-          startup-command: 'npm run start'
+          startup-command: 'node_modules/next/dist/bin/next start'
           
